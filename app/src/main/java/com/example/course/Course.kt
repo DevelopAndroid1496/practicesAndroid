@@ -1,5 +1,3 @@
 package com.example.course
 
-class Course {
-
-}
+data class Course (var id: Int, var name: String, var desc: String)
